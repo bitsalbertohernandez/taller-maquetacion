@@ -1,0 +1,40 @@
+
+
+.banner .mask{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.2;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #707070;
+    font-weight: bold;
+
+}
+
+.navbar {
+    background-color: #005f73;
+}
+
+.divider {
+    height: 1px; width: 100%; background-color: #aeaeae;
+}
+.btn-car {
+    background-color: #079ebe;
+}
+
+.text-total {
+    font-size: 1.3rem;
+    color: #196374;
+    font-weight: bold;
+}
+
+.text-value {
+    color: #196374;
+}

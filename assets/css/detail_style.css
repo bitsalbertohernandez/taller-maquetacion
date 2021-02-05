@@ -2,6 +2,7 @@ h1{
     font-size: 2.5rem;
     color: #707070;
     font-weight: bold;
+    content: 'Titulo';
 
 }
 
@@ -14,10 +15,11 @@ h1{
 }
 .btn-car {
     background-color: #079ebe;
+    font-size: 1.0rem;
 }
 
 .text-total {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #196374;
     font-weight: bold;
 }
@@ -30,4 +32,16 @@ h1{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+}
+
+@media (max-width:  576px) {
+    .text-total {
+    font-size: 1.8rem;
+    color: #050505;
+    font-weight: bold;
+    }
+    .btn-car {
+    background-color: #079ebe;
+    font-size: 1.4rem;
+    }
 }
